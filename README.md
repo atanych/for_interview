@@ -1,6 +1,7 @@
 # Design patterns
 ## Structural
 https://gist.github.com/atanych/99626e3726f90f68fdb1
+
 ##### Adapter
 > Convert the interface of a class into another interface clients expect
 
@@ -17,6 +18,7 @@ https://gist.github.com/atanych/99626e3726f90f68fdb1
 
 > Динамически предоставляет обьекту дополнительные возможности
 > Альтернатива наследованию для расширения функционала
+
 ##### Proxy
 > Provide a class which will limit access to another class
 
@@ -24,6 +26,7 @@ https://gist.github.com/atanych/99626e3726f90f68fdb1
 
 ## Behavioral
 https://gist.github.com/atanych/08bf3c9e33d6758fb9e1
+
 ##### Template method
 > Defines the skeleton of an algorithm in an operation, deferring some steps to subclasses
 > Let subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
@@ -58,10 +61,12 @@ https://gist.github.com/atanych/08bf3c9e33d6758fb9e1
 
 ## Creational
 https://gist.github.com/atanych/bd72ae8427550a68a131
+
 ##### Abstract factory
 > Provides an interface for creationg families of related or dependent objects without specifying their concrete class.
 
 > Предоставляет интерфейс для создания групп связаных или зависимых объектов, не указывая их конкретный класс
+
 ##### Factory method
 > Defines an interface for creating an object, but let subclasses decide which class to instantiate.
 
@@ -70,10 +75,12 @@ https://gist.github.com/atanych/bd72ae8427550a68a131
 > construction process can create different representations.
 
 > Разделяет создание сложного объекта и инициализацию его состояния так. что одинаковый процесс построения может создать объекты с разным состоянием.
+
 ##### Singleton
 > Ensure a class only has one instance and provide a global point of access to it.
 
 > Гарантирует, что класс имеет только один эксземпляр и предоставляет глобальную точку доступа к нему.
+
 ##### Prototype
 > Specify the kind of objects to create using prototypical instance,
 > and create new objects by copying this prototype.
@@ -85,3 +92,4 @@ https://gist.github.com/atanych/bd72ae8427550a68a131
 4. http ftp ws https
 5. middleware
 6. extend vs include
+
