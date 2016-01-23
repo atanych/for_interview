@@ -101,7 +101,9 @@ https://gist.github.com/atanych/bd72ae8427550a68a131
 
 1. lambda vs proc
 2. mysql vs PostgreSQL
-3. Algoritms
+3. Algorithms
+4. Time complexity
+4. Data structures
 4. http ftp ws https
 5. middleware
 6. extend vs include
