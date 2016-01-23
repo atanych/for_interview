@@ -85,6 +85,8 @@ https://gist.github.com/atanych/bd72ae8427550a68a131
 > Specify the kind of objects to create using prototypical instance,
 > and create new objects by copying this prototype.
 
+> Определяет несколько видов объектов, чтобы при создании использовать объект-прототип и создает новые объекты. копируя прототип (состояние объекта)
+
 # Bitwise operators
 ```
 5 -> 0000 0101
@@ -97,7 +99,6 @@ https://gist.github.com/atanych/bd72ae8427550a68a131
 5 << 2 = 20 (0001 0100) # left shift
 ```
 
-> Определяет несколько видов объектов, чтобы при создании использовать объект-прототип и создает новые объекты. копируя прототип (состояние объекта)
 1. lambda vs proc
 2. mysql vs PostgreSQL
 3. Algoritms
