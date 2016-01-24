@@ -101,6 +101,15 @@ https://gist.github.com/atanych/bd72ae8427550a68a131
 ##### How to check if a number is a power of 2
 > n & (n - 1) == 0
 
+# Algorithms
+- Bubble Sort (Сортировка пузырьком)
+- Insertion Sort (Сортировка вставками)
+- Selection Sort (Сортировка выбором)
+- Merge Sort (Сортировка слиянием)
+- Shell Sort (Сортировка Шелла)
+- Quick Sort (Быстрая сортировка)
+
+# TODO
 1. lambda vs proc
 2. mysql vs PostgreSQL
 3. Algorithms
