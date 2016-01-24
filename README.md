@@ -98,6 +98,8 @@ https://gist.github.com/atanych/bd72ae8427550a68a131
 5 >> 2 = 1 (0000 0001) # right shift
 5 << 2 = 20 (0001 0100) # left shift
 ```
+##### How to check if a number is a power of 2
+> n & (n - 1) == 0
 
 1. lambda vs proc
 2. mysql vs PostgreSQL
