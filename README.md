@@ -112,7 +112,9 @@ https://gist.github.com/atanych/bd72ae8427550a68a131
 # Testing
 ### Behaviour Driven Development
 > List: In order, A, Should
+
 > Scenario: Условие (Given), Событие (When), Результат (Then)
+
 ```
 Feature: Post articles
 
