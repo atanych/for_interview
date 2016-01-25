@@ -160,8 +160,51 @@ Feature: Make comments
 
 > Capistrano runs each command separately on their own SSH session and that's why it takes so long to deploy an application. Unlike Capistrano, Mina runs only one command which requires only one session
 
+# SQL
+## Subgroups of SQL commands
+- Data Manipulation Language
+- Data Definition Language
+- Data Control Language
+- Transaction Control Language
+
+## Isolation level
+- READ UNCOMMITTED
+- READ COMMTITED
+- REPEATABLE READ
+- SERIALIZABLE
+
+## mysql vs postgresql
+
+- CTE ( Common Table Expression)
+```
+WITH  subquery1 AS (
+      SELECT ...  
+      JOIN...
+      JOIN...
+     GROUP BY....
+
+),
+subquery2 AS (
+      SELECT ...
+      WHERE ....
+)
+
+SELECT * 
+FROM subquery1
+    JOIN subquery 2
+           ON ...
+```
+
+- Store procedures
+a log of languages (python, perl, pl/pgsql, etc)
+
+- Custom types
+
+- Sequences
+
+- Oracle support only innoDB
+
 # TODO
-2. mysql vs PostgreSQL
 4. Data structures
 4. http ftp ws https
 5. middleware
