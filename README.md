@@ -109,6 +109,23 @@ https://gist.github.com/atanych/bd72ae8427550a68a131
 - Shell Sort (Сортировка Шелла)
 - Quick Sort (Быстрая сортировка)
 
+# Testing
+### Behaviour Driven Development
+> List: In order, A, Should
+> Scenario: Условие (Given), Событие (When), Результат (Then)
+```
+Feature: Post articles
+
+  In order to show trip photos
+  A owner
+  Should be abble to post article
+
+Feature: Make comments
+
+  In order to contact
+  A user
+  Should be abble to make comments
+```
 # TODO
 1. lambda vs proc
 2. mysql vs PostgreSQL
