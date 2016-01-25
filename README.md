@@ -196,7 +196,7 @@ FROM subquery1
 ```
 
 - Store procedures
-a log of languages (python, perl, pl/pgsql, etc)
+> a lot of languages (python, perl, pl/pgsql, etc)
 
 - Custom types
 
