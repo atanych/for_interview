@@ -108,6 +108,9 @@ https://gist.github.com/atanych/bd72ae8427550a68a131
 - Merge Sort (Сортировка слиянием)
 - Shell Sort (Сортировка Шелла)
 - Quick Sort (Быстрая сортировка)
+> Time complexity
+
+> O-notation
 
 # Testing
 ### Behaviour Driven Development
@@ -128,13 +131,27 @@ Feature: Make comments
   A user
   Should be abble to make comments
 ```
+
+# Simple ruby
+- lambda vs proc
+> Lambdas check the number of arguments, while procs do not
+
+> Lambdas and procs treat the ‘return’ keyword differently
+
+- class vs module
+> class can be instantiated
+
+> usage: class: object creation; module: mixim facility, provide a namespase
+
+> superclass: class -> module; module -> Object
+
+> class inherits behaviour and can be base for inheritance; module is not
+
+> inclusion|extension: class cannot be included|extend (only inheritanse); module can be included|extend in classes andmodule by using the include|extend command
+
+
 # TODO
-1. lambda vs proc
 2. mysql vs PostgreSQL
-3. Algorithms
-4. Time complexity
 4. Data structures
 4. http ftp ws https
 5. middleware
-6. extend vs include
-
