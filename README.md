@@ -152,6 +152,13 @@ Feature: Make comments
 
 > inclusion|extension: class cannot be included|extend (only inheritanse); module can be included|extend in classes andmodule by using the include|extend command
 
+- sidekiq vs resque
+
+> sidekiq: all workers -> one process, resque: one worker -> one process
+
+- mina vs capistrano
+
+> Capistrano runs each command separately on their own SSH session and that's why it takes so long to deploy an application. Unlike Capistrano, Mina runs only one command which requires only one session
 
 # TODO
 2. mysql vs PostgreSQL
