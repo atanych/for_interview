@@ -133,12 +133,15 @@ Feature: Make comments
 ```
 
 # Simple ruby
+
 - lambda vs proc
+
 > Lambdas check the number of arguments, while procs do not
 
 > Lambdas and procs treat the ‘return’ keyword differently
 
 - class vs module
+
 > class can be instantiated
 
 > usage: class: object creation; module: mixim facility, provide a namespase
