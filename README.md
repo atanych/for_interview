@@ -108,6 +108,7 @@ https://gist.github.com/atanych/bd72ae8427550a68a131
 - Merge Sort (Сортировка слиянием)
 - Shell Sort (Сортировка Шелла)
 - Quick Sort (Быстрая сортировка)
+
 > Time complexity
 
 > O-notation
@@ -204,7 +205,16 @@ FROM subquery1
 
 - Oracle support only innoDB
 
+# Data structures
+
+- linked list
+- stack
+- queue
+- array
+- hash
+- tree
+- binary tree - O(log(n))
+
 # TODO
-4. Data structures
 4. http ftp ws https
 5. middleware
