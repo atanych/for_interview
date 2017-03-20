@@ -214,6 +214,10 @@ FROM subquery1
 - hash
 - tree
 - binary tree - O(log(n))
+- B-tree (https://habrahabr.ru/post/114154/)
+- set (ruby)
+- range (ruby)
+- matrix (ruby)
 
 # TODO
 4. http ftp ws https
